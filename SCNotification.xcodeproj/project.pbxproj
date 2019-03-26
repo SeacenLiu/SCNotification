@@ -13,6 +13,7 @@
 		14A147C7224A8144009FD718 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14A147C6224A8144009FD718 /* Assets.xcassets */; };
 		14A147CA224A8144009FD718 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14A147C8224A8144009FD718 /* LaunchScreen.storyboard */; };
 		14A147CD224A8144009FD718 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A147CC224A8144009FD718 /* main.m */; };
+		14A147D6224A8519009FD718 /* SCNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A147D5224A8519009FD718 /* SCNotification.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		14A147C9224A8144009FD718 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14A147CB224A8144009FD718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14A147CC224A8144009FD718 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14A147D4224A8519009FD718 /* SCNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCNotification.h; sourceTree = "<group>"; };
+		14A147D5224A8519009FD718 /* SCNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCNotification.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		14A147BC224A8143009FD718 /* SCNotification */ = {
 			isa = PBXGroup;
 			children = (
+				14A147D3224A8519009FD718 /* SCNotification */,
 				14A147BD224A8143009FD718 /* AppDelegate.h */,
 				14A147BE224A8143009FD718 /* AppDelegate.m */,
 				14A147C0224A8143009FD718 /* ViewController.h */,
@@ -67,6 +71,15 @@
 				14A147C8224A8144009FD718 /* LaunchScreen.storyboard */,
 				14A147CB224A8144009FD718 /* Info.plist */,
 				14A147CC224A8144009FD718 /* main.m */,
+			);
+			path = SCNotification;
+			sourceTree = "<group>";
+		};
+		14A147D3224A8519009FD718 /* SCNotification */ = {
+			isa = PBXGroup;
+			children = (
+				14A147D4224A8519009FD718 /* SCNotification.h */,
+				14A147D5224A8519009FD718 /* SCNotification.m */,
 			);
 			path = SCNotification;
 			sourceTree = "<group>";
@@ -141,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14A147D6224A8519009FD718 /* SCNotification.m in Sources */,
 				14A147C2224A8143009FD718 /* ViewController.m in Sources */,
 				14A147CD224A8144009FD718 /* main.m in Sources */,
 				14A147BF224A8143009FD718 /* AppDelegate.m in Sources */,
