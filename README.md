@@ -1,2 +1,2 @@
 # SCNotification
-模仿NSNotification功能
+NSNotification implementation by Seacen.
